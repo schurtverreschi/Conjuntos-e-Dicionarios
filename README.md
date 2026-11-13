@@ -4,3 +4,4 @@ Arquivo utilizado para organizar as atividades praticas do curso de pratica da A
 Revisar e reforçar os conhecimentos aprendidos de conjuntos e dicionários
 ## Atividades:
 - lista_convidados: Utiliza um conjunto para armazenar os nomes dos convidados e garantir que não será possível repetir convidados;
+- palavra_em_comum: Faz a comparação entre dois textos e coloca as palavras em comum num conjunto;
