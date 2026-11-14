@@ -11,3 +11,4 @@ Revisar e reforçar os conhecimentos aprendidos de conjuntos e dicionários
 - dicionário_estoque: Adiciona uma quantidade pré determinada de itens a um dicionário;
 - atualizando_estoque: Atualiza a quantidade de itens de um determinado elemento do estoque informado pelo usuário se o mesmo se existir no estoque;
 - participantes_maratona: Faz o tratamento de um dicionario de participantes da maratona para exibir duas listas, uma de nomes e outra de idades e depois exibir o par nome idade de cada participante;
+- gerenciando_inscrições: Remove o nome informado de dentro dos valores do dicionário participantes;
