@@ -7,3 +7,4 @@ Revisar e reforçar os conhecimentos aprendidos de conjuntos e dicionários
 - palavra_em_comum: Faz a comparação entre dois textos e coloca as palavras em comum num conjunto;
 - comparando_lista_compras: Faz a comparação de duas listas de compras e informa o que tem em comum em ambas e o que é exclusivo de cada;
 - permissões: Verifica se todas as permissões solicitadas estão dentro do conjunto de permissões principais;
+- lista_ tarefas: Combina dois conjuntos de tarefas e depois remove um elemento informado pelo usuário;
