@@ -8,3 +8,4 @@ Revisar e reforçar os conhecimentos aprendidos de conjuntos e dicionários
 - comparando_lista_compras: Faz a comparação de duas listas de compras e informa o que tem em comum em ambas e o que é exclusivo de cada;
 - permissões: Verifica se todas as permissões solicitadas estão dentro do conjunto de permissões principais;
 - lista_ tarefas: Combina dois conjuntos de tarefas e depois remove um elemento informado pelo usuário;
+- dicionário_estoque: Adiciona uma quantidade pré determinada de itens a um dicionário;
