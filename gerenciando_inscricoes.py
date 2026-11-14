@@ -4,19 +4,21 @@ participantes = {
 }
 
 nome_remover = input("Nome do participante a ser removido: ").title()
+encontrado = False
 
-if nome_remover in participantes["Workshop 1"]:
-    participantes["Workshop 1"].discard(nome_remover)
-    print(f"\n{nome_remover} removido(a) de Workshop 1 com sucesso.")
-elif nome_remover in participantes["Workshop 2"]:
-    participantes["Workshop 2"].discard(nome_remover)
-    print(f"\n{nome_remover} removido(a) de Workshop 2 com sucesso.")
-else:
+for workshop, inscritos in participantes.items():
+    if nome_remover in inscritos:
+        inscritos.discard(nome_remover)
+        print(f"\n{nome_remover} removido(a) de {workshop} com sucesso.")
+        encontrado = True
+        break
+
+if not encontrado:
     print("\nNome informado não encontrado.")
 
 print("\nLista atualizada de participantes:\n")
-print("Workshop 1: ", participantes["Workshop 1"])
-print("Workshop 2: ", participantes["Workshop 2"])
+for workshop, inscritos in participantes.items():
+    print(f"{workshop}: {inscritos}")
 
 
 # Faça como eu fiz: gerenciando inscrições de um workshop
